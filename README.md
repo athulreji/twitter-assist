@@ -30,4 +30,4 @@ A django application which helps you to save twitter threads.You can save some v
 
 ## How to configure
 
-[Instructions for setting up project](https://github.com/athulreji/twitter-assist/blob/main/config.md))
+[Instructions for setting up project](https://github.com/athulreji/twitter-assist/blob/main/config.md)

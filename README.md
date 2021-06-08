@@ -26,12 +26,8 @@ A django application which helps you to save twitter threads.You can save some v
   5.  The python file containing API keys are 'ignored' for security issues in GitHub repo. A security_keys.py file with api keys must be added to twitter_assist/mainappp directory.
 
 ### Libraries Used
-[requirements.txt](https://github.com/python-project-tinkerhub/project-python/blob/master/requirements.txt)
+[requirements.txt](https://github.com/athulreji/twitter-assist/blob/main/requirements.txt)
 
 ## How to configure
 
-[Instructions for setting up project](https://github.com/python-project-tinkerhub/project-python/blob/master/config.md)
-
-## How to Run
-
-[Instructions for running](https://github.com/python-project-tinkerhub/project-python/blob/master/config.md)
+[Instructions for setting up project](https://github.com/athulreji/twitter-assist/blob/main/config.md))

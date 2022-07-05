@@ -1,0 +1,1 @@
+gunicorn twitter_assist.wsgi --log-file -

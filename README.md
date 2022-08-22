@@ -2,6 +2,12 @@
 
 A django application which helps you to save twitter threads.You can save some valuable twitter tweets by mentioning a bot name inside the tweet using your twitter account. With the help of twiteer API these mentioned tweets can be downloaded from the Dashboard.
 
+# ScreenShots
+
+![image](https://user-images.githubusercontent.com/28696896/185988495-a492daf8-b893-4ecb-af2f-2395af553f48.png)
+![image](https://user-images.githubusercontent.com/28696896/185989781-98d6a07e-4e85-4f58-b3a6-b117e798eae8.png)
+![image](https://user-images.githubusercontent.com/28696896/185989031-808d9e9d-c0a1-4468-874a-154924cf5d5a.png)
+
 ## Team members
 
 1. [Achyuth Mohan](https://github.com/AchyuthMohan)

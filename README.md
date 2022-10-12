@@ -1,6 +1,6 @@
 # Twitter Assist
 
-A django application which helps you to save twitter threads.You can save some valuable twitter tweets by mentioning a bot name inside the tweet using your twitter account. With the help of twiteer API these mentioned tweets can be downloaded from the Dashboard.
+This django application helps you to download and save twitter threads. Valuable tweets can be saved by mentioning bot name within the tweet using your twitter account. With the help of twiteer API these mentioned tweets can be downloaded from the Dashboard.
 
 # ScreenShots
 
@@ -17,12 +17,12 @@ A django application which helps you to save twitter threads.You can save some v
 ## How it Works ?
 
 ### For users:
-  1.  For using the web application you must have a twitter account.
-  1.  You can create an account through the provided link, where you must enter your name, email id, twitter id etc.
-  2.  Then you must login using username and password which was created initially. This will take you to dashboard.
-  3.  Here you will be provided with a bot name. The thing you should do is just mention this bot name in your tweets which must be saved.
-  4.  After giving all your tweets you can click the 'download' button in the dashboard.
-  5.  Then the browser will download a text file 'mentions.txt' which contains all the tweets along with its timestamp.
+  1.  This web application requires the user to have a twitter account.
+  2.  Using the provided link, an account can be created by providing credentials like your name, email id, twitter id etc.
+  3.  Login using the created username and password and this will take you to the dashboard.
+  4.  You will be provided with a bot name and by mentioning this bot name in your tweets, you can download and save the tweet.
+  5.  After giving all your tweets you can click the 'download' button in the dashboard.
+  6.  Then the browser will download a text file 'mentions.txt' which contains all the tweets along with the timestamp.
 
 ### For Developers:
   1.  The program tracks the tweets of user by using Twitter API and Tweepy. You should have a Twitter Developer account to access the API.

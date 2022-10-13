@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-import subprocess
+import subprocess                                       #importing necessary libraries
 
 
 # p = subprocess.Popen([sys.executable, 'twitter_bot.py'], 
@@ -13,7 +13,7 @@ def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'twitter_assist.settings')
     try:
-        from django.core.management import execute_from_command_line
+        from django.core.management import execute_from_command_line                                       #django error handling
     except ImportError as exc:
         raise ImportError(
             "Couldn't import Django. Are you sure it's installed and "
@@ -23,5 +23,5 @@ def main():
     execute_from_command_line(sys.argv)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':                                          #calling main
     main()

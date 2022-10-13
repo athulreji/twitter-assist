@@ -4,7 +4,7 @@ import os
 from django.conf import settings
 from .models import User
 from .twitter_bot import download_file
-
+#index page
 def index(request):
     if request.method == "POST":
         email = request.POST.get('email')
@@ -16,7 +16,7 @@ def index(request):
             return render(request, 'index.html', {'error': 'wpwd'})
         return render(request, 'index.html', {'error': 'wemail'})
     return render(request, 'index.html')
-
+#signup page
 def signup(request):
     if request.method == "POST":
         email = request.POST.get('email')
@@ -27,11 +27,11 @@ def signup(request):
         user.save()
         return redirect('index')
     return render(request, 'signup.html')
-
+#dashboard page
 def dashboard(request):
     user = User.objects.get(email=request.session['email'])
     return render(request, 'dashboard.html', {'user' : user})
-
+#download page
 def download(request):
     user = User.objects.get(email=request.session['email'])
     filename = user.twitterid + '.txt'
@@ -43,7 +43,7 @@ def download(request):
             response['Content-Disposition'] = "attachment; filename=%s" % 'tweets.txt'
             return response
     raise Http404
-
+#layout page
 def logout(request):
     try:
         del request.session['email']

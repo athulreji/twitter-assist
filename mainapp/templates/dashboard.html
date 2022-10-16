@@ -13,7 +13,7 @@
 	<div class="container px-0 py-4 mx-auto">
 		<div class="card">
       <div class="card card1 mx-auto">
-        <div class="container">
+        <div class="container">                                  //container 
           <div class="row">
             <div class="col-sm">
               <h3 class="mb-4 heading" id="tw_h">Twitter Assist</h3>
@@ -24,7 +24,7 @@
           </div>
         </div>
 				<div class="row justify-content-center my-auto px-2">
-					<h4 style="color: rgba(255, 255, 255, 0.767);"> Dashboard</h5>
+					<h4 style="color: rgba(255, 255, 255, 0.767);"> Dashboard</h5>                //dashboard color
           <br><br>
           <hr>
           <br><br><br>
@@ -36,12 +36,12 @@
               <p id="text">Name: &ensp;{{ user.name }}</a></p>
             </div>
             <div class="col-sm" style="text-align: center;">
-              <p id="text">Twitter Id: &ensp;{{ user.twitterid }}</a></p>
+              <p id="text">Twitter Id: &ensp;{{ user.twitterid }}</a></p>                            //display twitter id
             </div>
           </div>
         </div>
         <p>
-        <div class="download">
+        <div class="download">               //for download
           <a href="{% url 'download' %}", type="download"><div class="row justify-content-center my-3 px-3"><button id="btn" class="btn-block btn-color">Download Tweets</button> </div></a>
         </div>
 			</div>

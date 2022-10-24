@@ -21,10 +21,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-bd%9y*kiml9jf*)zwxy7o6*!r@%zy1+*hqo*90-!-lng-3lj65'
+SECRET_KEY = 'django-insecure-bd%9y*kiml9jf*)zwxy7o6*!r@%zy1+*hqo*90-!-lng-3lj65'                         #django secret key
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True                                                                     #important security warning
 
 ALLOWED_HOSTS = []
 
@@ -34,7 +34,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
-    'django.contrib.contenttypes',
+    'django.contrib.contenttypes',                                #installed apps
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
@@ -46,7 +46,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',                                         #middlewares init
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -60,7 +60,7 @@ TEMPLATES = [
         'DIRS': [os.path.join(BASE_DIR, "mainapp/templates")],
         'APP_DIRS': True,
         'OPTIONS': {
-            'context_processors': [
+            'context_processors': [                                                              #django templates
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',

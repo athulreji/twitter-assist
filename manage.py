@@ -9,6 +9,7 @@ import subprocess                                       #importing necessary lib
 #                                     stdout=subprocess.PIPE, 
 #                                     stderr=subprocess.STDOUT)
 
+#main
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'twitter_assist.settings')
